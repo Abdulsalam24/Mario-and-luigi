@@ -56,13 +56,13 @@ html,body{
     width: 100%;
     border: 3px dashed white;
     position: absolute;
-    top: 49px;
+    top: 80px;
 }
 
 .road img{
     width: 80px;
     position: absolute;
-    top: -35px;
+    top: -15px;
     left: 0;
     animation: drive 3s linear infinite both,jump 0.5s 1.2s ease; 
 
@@ -72,7 +72,7 @@ html,body{
 .road img:nth-child(2){
     width: 60px;
     position: absolute;
-    top: 10px;
+    top: 70px;
     animation: drive 4s infinite linear alternate;
 }
 
@@ -91,3 +91,81 @@ html,body{
     50%{top: -100px;}
     100%{top: -35px;}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.grid{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+    
+}
+
+img{
+    width: 100%;
+    
+}
+.img1{
+    
+}
+
+.img3{
+    height: 100%;
+}
+
+
+
+.box1{
+    background-color: royalblue;
+    grid-area: box1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box2{
+    background-color: rebeccapurple;
+    grid-area: box2;
+}
+
+.box3{
+    background-color: brown;
+    grid-area: box3;
+}
+*/
